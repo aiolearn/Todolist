@@ -1,0 +1,116 @@
+@font-face {
+    font-family: iransans;
+    src: url('iransans2.woff2');
+    
+}
+
+.logo{
+    width:200px;height: 100px; margin: auto;border-radius: 12px; overflow: hidden; direction: rtl;
+    position: absolute;
+    top : 20px;
+    font-size: 50px;
+    color: #da9ff3;
+    font-weight: bold;
+    z-index: -1;
+}
+
+.footer{
+     height: 100px; margin: auto;border-radius: 12px; overflow: hidden; direction: rtl;
+    position: absolute;
+    bottom : 0px;
+    font-size: 10px;
+    color: #3f4577; 
+    z-index: -1;
+}
+
+.in1{
+    line-height: 40px;
+    border: 1px solid #da9ff3;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.123);
+    width: 95%;
+    font-family: iransans;
+    padding: 15px ;
+    font-size: 20px;
+}
+
+.in1:focus-visible{
+    outline: #bf71e0 auto 1px;
+}
+
+body{
+    background: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: iransans;
+}
+
+.todo1{
+    background-color: #f7e3ff;
+    width: 90%;
+    padding: 15px ;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.close{
+    border: none;
+    background-color: transparent;
+    float: left;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #b469d4;
+}
+
+.time1{
+    border: none;
+    background-color: transparent;
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #8d8d8d; 
+}
+
+.soal{
+    width:500px; 
+    max-width: 90%;  
+    background-color: white;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px 0px #0000002e;
+    overflow: hidden; 
+    direction: rtl;
+}
+
+.soal2{
+    padding: 25px 25px 25px 25px;
+}
+
+.soal3{
+    width: 100%;
+    text-align: right; 
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.dokme1{
+    width: 600px;
+    border: none;
+    height: 68px;
+    font-size: 18px;
+    background-color: #8e44ad;
+    color: white;
+    transition: 0.4s;
+    font-family: iransans;
+}
+
+.dokme1:hover{
+    background-color: #69198b;
+    cursor: pointer;
+}
